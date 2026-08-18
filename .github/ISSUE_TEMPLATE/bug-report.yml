@@ -1,0 +1,43 @@
+name: 问题反馈 · Bug Report
+description: 报告本地媒体浏览器中的问题 · Report a problem in Local Media Browser
+title: "[问题] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿上传私人媒体、敏感文件路径或其他个人信息。
+        Do not upload private media, sensitive file paths, or personal information.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本 · macOS version
+      placeholder: 例如 macOS 14.6
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: 应用版本 · App version
+      placeholder: 例如 1.0 (8)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 · Steps to reproduce
+      description: 请描述操作步骤，不要粘贴敏感路径。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果 · Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果 · Actual behavior
+    validations:
+      required: true
