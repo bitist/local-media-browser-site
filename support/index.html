@@ -40,7 +40,7 @@
         <li><strong>打开应用。</strong>点击“选择文件夹”，或把文件夹拖到应用窗口。<span>Open the app and choose a folder, or drag a folder onto the window.</span></li>
         <li><strong>等待扫描。</strong>媒体会在扫描过程中分批显示，无需等待全部完成。<span>Media appears in batches while scanning; you do not need to wait for completion.</span></li>
         <li><strong>浏览目录。</strong>在侧边栏选择文件夹，右侧会显示该文件夹及所有后代目录中的媒体。<span>Select a folder in the sidebar to show media in that folder and all descendants.</span></li>
-        <li><strong>快速预览。</strong>单击选择媒体后按空格，或双击使用默认应用打开。<span>Select an item and press Space for Quick Look, or double-click to open it in the default app.</span></li>
+        <li><strong>选择与预览。</strong>单击选择，按住 Command 切换多选，或按住 Shift 范围选择。按空格快速查看，用四个方向键导航。<span>Click to select, Command-click to toggle multiple items, or Shift-click to select a range. Press Space for Quick Look and navigate with all four arrow keys.</span></li>
       </ol>
     </section>
 
@@ -49,8 +49,20 @@
       <div class="card-grid two-columns">
         <article class="card compact"><h3>搜索与筛选</h3><p>按文件名或相对路径搜索，并在全部、图片和视频之间筛选。</p><p class="en">Search by filename or relative path and filter by all, images, or videos.</p></article>
         <article class="card compact"><h3>排序与缩略图</h3><p>按名称、修改日期或文件大小排序，并调整缩略图尺寸。</p><p class="en">Sort by name, modification date, or file size, and adjust thumbnail size.</p></article>
-        <article class="card compact"><h3>重新扫描</h3><p>文件发生变化后，点击工具栏中的刷新按钮重新扫描当前根目录。</p><p class="en">After files change, use the refresh button to rescan the current root folder.</p></article>
+        <article class="card compact"><h3>多选与键盘导航</h3><p>支持 Finder 风格多选、Command-A 全选当前结果，以及四方向键网格导航。</p><p class="en">Use Finder-style multi-selection, Command-A for current results, and four-direction keyboard navigation.</p></article>
         <article class="card compact"><h3>Finder 与路径</h3><p>复制文件或文件夹路径，也可以直接在 Finder 中显示。</p><p class="en">Copy file or folder paths, or reveal items directly in Finder.</p></article>
+      </div>
+    </section>
+
+    <section class="support-section" aria-labelledby="pro-features">
+      <h2 id="pro-features">Pro 永久版 · Pro Lifetime</h2>
+      <p>Pro 永久版是一次性买断的非消耗型内购，无试用，支持家人共享。中国大陆定价为 ¥18，美国定价为 $8.99，其他地区价格以 App Store 显示为准。</p>
+      <p class="en">Pro Lifetime is a one-time, non-consumable purchase with no trial and Family Sharing enabled. It is priced at CNY 18 in mainland China and USD 8.99 in the United States; the App Store displays localized prices elsewhere.</p>
+      <div class="card-grid two-columns">
+        <article class="card compact"><h3>重复与相似素材</h3><p>完全重复识别覆盖图片和视频；视觉相似识别覆盖图片。文件哈希和视觉特征均仅在 Mac 本地计算。</p><p class="en">Exact duplicate detection covers photos and videos; visual similarity detection covers photos. File hashes and visual features are computed only on your Mac.</p></article>
+        <article class="card compact"><h3>移到废纸篓</h3><p>选择文件后使用工具栏、右键菜单或 Command-Delete。应用会二次确认，不会自动或永久删除文件。</p><p class="en">Select files and use the toolbar, context menu, or Command-Delete. The app asks for confirmation and never removes files automatically or permanently.</p></article>
+        <article class="card compact"><h3>最近目录与自动刷新</h3><p>保存最近 10 个目录以便重新授权，并在当前目录变化时自动刷新。可随时清除最近目录。</p><p class="en">Keep up to ten recent folders for convenient reauthorization and refresh the current folder automatically when it changes. Recent folders can be cleared at any time.</p></article>
+        <article class="card compact"><h3>媒体信息与高级筛选</h3><p>查看图片尺寸、视频时长等信息，并使用文件大小、日期、分辨率和时长等高级条件筛选排序。</p><p class="en">Inspect dimensions, duration, and other media details, then filter and sort by advanced criteria such as size, date, resolution, and duration.</p></article>
       </div>
     </section>
 
@@ -58,7 +70,9 @@
       <h2 id="faq">常见问题 · FAQ</h2>
       <details><summary>为什么看不到某个文件？ · Why is a file missing?</summary><p>应用只显示 macOS 能识别为图片或视频的普通文件，并跳过隐藏项目、应用包内容和无权访问的目录。确认格式受系统支持后再点击刷新。</p><p class="en">The app shows regular files macOS recognizes as images or videos and skips hidden items, app package contents, and inaccessible folders. Confirm the format is supported, then rescan.</p></details>
       <details><summary>为什么缩略图或快速预览失败？ · Why did thumbnail or Quick Look fail?</summary><p>文件可能已移动、损坏、权限发生变化，或者系统不支持解码该格式。请先在 Finder 中确认文件仍可打开。</p><p class="en">The file may have moved, become damaged, lost permission, or use a format the system cannot decode. Confirm that Finder can still open it.</p></details>
-      <details><summary>应用会修改我的文件吗？ · Does the app modify my files?</summary><p>不会。应用仅用于只读浏览，不提供删除、移动、重命名或编辑功能。</p><p class="en">No. The app is read-only and provides no delete, move, rename, or editing features.</p></details>
+      <details><summary>应用会修改我的文件吗？ · Does the app modify my files?</summary><p>浏览和分析不会修改文件。只有 Pro 用户主动选择文件、执行“移到废纸篓”并二次确认后，文件才会移入 macOS 废纸篓。可以从废纸篓恢复；应用不会永久删除、重命名或编辑文件。</p><p class="en">Browsing and analysis do not modify files. A file moves to the macOS Trash only after a Pro user selects it, invokes Move to Trash, and confirms. It remains recoverable; the app does not permanently delete, rename, or edit files.</p></details>
+      <details><summary>重复和相似分析会上传文件吗？ · Does duplicate analysis upload files?</summary><p>不会。图片、视频、哈希、视觉特征和分析结果仅在 Mac 本地处理。分析缓存最多 1 GB，可在应用中清除。</p><p class="en">No. Photos, videos, hashes, visual features, and results are processed only on your Mac. The analysis cache is limited to 1 GB and can be cleared in the app.</p></details>
+      <details><summary>如何恢复 Pro 购买？ · How do I restore Pro?</summary><p>打开 Pro 页面并点击“恢复购买”，然后按照 App Store 提示使用原购买 Apple 账号完成。</p><p class="en">Open the Pro screen, choose Restore Purchases, and follow the App Store prompts using the Apple Account that owns the purchase.</p></details>
       <details><summary>如何卸载？ · How do I uninstall?</summary><p>退出应用后，将“本地素材快捷浏览”从“应用程序”文件夹移到废纸篓即可。</p><p class="en">Quit the app, then move Local Media Quick Browser from Applications to the Trash.</p></details>
     </section>
 

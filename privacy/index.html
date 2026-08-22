@@ -27,11 +27,11 @@
 
   <main id="main" class="document shell">
     <header class="document-title">
-      <p class="eyebrow">最后更新 · LAST UPDATED: 2026-08-18</p>
+      <p class="eyebrow">最后更新 · LAST UPDATED: 2026-08-23</p>
       <h1>隐私政策</h1>
       <p class="subtitle">Privacy Policy</p>
-      <p class="lead">本地素材快捷浏览尊重你的隐私。应用采用本地优先、只读设计，不收集或上传你的个人数据。</p>
-      <p class="lead en">Local Media Quick Browser respects your privacy. It is local-first and read-only by design, and does not collect or upload your personal data.</p>
+      <p class="lead">本地素材快捷浏览尊重你的隐私。应用采用本地优先设计，不收集或上传你的个人数据。</p>
+      <p class="lead en">Local Media Quick Browser respects your privacy. It is local-first by design and does not collect or upload your personal data.</p>
     </header>
 
     <article class="policy-block">
@@ -42,20 +42,22 @@
 
     <article class="policy-block">
       <h2>2. 本地媒体处理 · On-Device Media Processing</h2>
-      <p>图片、视频、缩略图、文件名、相对路径、文件大小、修改日期和视频时长仅在你的 Mac 上处理。应用不会把这些信息传输到开发者或第三方服务器。</p>
-      <p class="en">Photos, videos, thumbnails, filenames, relative paths, file sizes, modification dates, and video durations are processed only on your Mac. None of this information is sent to the developer or to third-party servers.</p>
+      <p>图片、视频、缩略图、文件名、相对路径、文件大小、日期、视频时长、内容哈希、感知特征和重复/相似分析结果仅在你的 Mac 上处理。完全重复识别适用于图片和视频，视觉相似识别仅适用于图片。应用不会把这些信息传输到开发者或第三方服务器。</p>
+      <p class="en">Photos, videos, thumbnails, filenames, relative paths, file sizes, dates, video durations, content hashes, perceptual features, and duplicate/similarity results are processed only on your Mac. Exact duplicate detection covers photos and videos; visual similarity detection covers photos only. None of this information is sent to the developer or to third-party servers.</p>
     </article>
 
     <article class="policy-block">
       <h2>3. 文件夹访问 · Folder Access</h2>
-      <p>应用仅访问你通过系统文件夹选择器或拖放主动选择的文件夹，以及其中的后代目录。访问用于显示和预览媒体，应用不会删除、移动、重命名或修改原始文件。</p>
-      <p class="en">The app accesses only folders you explicitly choose through the system folder picker or drag and drop, including their descendant folders. Access is used to display and preview media. The app does not delete, move, rename, or modify original files.</p>
+      <p>应用仅访问你通过系统文件夹选择器或拖放主动选择的文件夹，以及其中的后代目录。读取访问用于显示、预览和本地分析媒体。Pro 用户只有在主动选择文件并二次确认后，才会使用写入权限将其移到 macOS 废纸篓。文件可从废纸篓恢复；应用不会自动清理、永久删除、重命名或编辑原始文件。</p>
+      <p class="en">The app accesses only folders you explicitly choose through the system folder picker or drag and drop, including their descendant folders. Read access is used to display, preview, and analyze media locally. Write access is used only when a Pro user selects files and confirms moving them to the macOS Trash. Files remain recoverable from the Trash; the app does not automatically clean up, permanently delete, rename, or edit original files.</p>
     </article>
 
     <article class="policy-block">
-      <h2>4. 本机偏好设置 · Local Preferences</h2>
-      <p>应用不会保存你导入过的文件夹路径或媒体索引。排序方式、排序方向和缩略图尺寸等非敏感界面偏好可能通过 macOS 偏好设置保存在本机，直到你重置偏好或移除应用数据。</p>
-      <p class="en">The app does not save previously imported folder paths or a media index. Non-sensitive interface preferences, such as sort field, sort direction, and thumbnail size, may be stored locally through macOS preferences until you reset them or remove the app's data.</p>
+      <h2>4. 本机存储 · Local Storage</h2>
+      <p>排序方式、排序方向和缩略图尺寸等非敏感界面偏好可通过 macOS 偏好设置保存在本机。Pro 可在本机保存最近 10 个文件夹的路径和安全作用域书签，但应用启动时不会自动打开上次目录。你可随时清除最近目录。</p>
+      <p class="en">Non-sensitive interface preferences, such as sort field, sort direction, and thumbnail size, may be stored locally through macOS preferences. Pro may locally retain paths and security-scoped bookmarks for up to ten recent folders, but the app does not automatically reopen the previous folder at launch. You can clear recent folders at any time.</p>
+      <p>Pro 可创建最多 1 GB 的本地分析缓存，包含相对路径、文件大小与日期、SHA-256 哈希、感知哈希和 Vision 特征，用于避免重复分析未变化的文件。缓存不保存媒体内容或持久缩略图，也不构建云端或持久的完整媒体资料库索引。你可随时清除分析缓存。</p>
+      <p class="en">Pro may create an on-device analysis cache of up to 1 GB containing relative paths, file sizes and dates, SHA-256 hashes, perceptual hashes, and Vision features so unchanged files do not need to be analyzed again. The cache stores no media contents or persistent thumbnails and does not create a cloud or persistent full media-library index. You can clear the analysis cache at any time.</p>
     </article>
 
     <article class="policy-block">
@@ -65,19 +67,25 @@
     </article>
 
     <article class="policy-block">
-      <h2>6. 数据保留与删除 · Data Retention and Deletion</h2>
-      <p>由于开发者不接收用户数据，因此没有服务器端数据需要保留或删除。你可以随时停止使用应用、重置本机偏好，或卸载应用。</p>
-      <p class="en">Because the developer does not receive user data, there is no server-side user data to retain or delete. You may stop using the app, reset local preferences, or uninstall it at any time.</p>
+      <h2>6. 购买 · Purchases</h2>
+      <p>Pro 永久版是由 Apple 通过 App Store 和 StoreKit 处理的非消耗型内购。应用仅获取经 Apple 验证的 Pro 权限状态以解锁功能，开发者不会通过应用获取你的付款卡或银行信息。</p>
+      <p class="en">Pro Lifetime is a non-consumable in-app purchase processed by Apple through the App Store and StoreKit. The app receives only the Apple-verified Pro entitlement state needed to unlock features; the developer does not receive your payment card or banking information through the app.</p>
     </article>
 
     <article class="policy-block">
-      <h2>7. 政策变更 · Changes to This Policy</h2>
+      <h2>7. 数据保留与删除 · Data Retention and Deletion</h2>
+      <p>由于开发者不接收用户数据，因此没有服务器端用户数据需要保留或删除。你可随时清除最近目录、分析缓存和本机偏好，或卸载应用以移除其本机数据。</p>
+      <p class="en">Because the developer does not receive user data, there is no server-side user data to retain or delete. You can clear recent folders, the analysis cache, and local preferences at any time, or uninstall the app to remove its local data.</p>
+    </article>
+
+    <article class="policy-block">
+      <h2>8. 政策变更 · Changes to This Policy</h2>
       <p>如果应用的数据处理方式发生变化，本政策将同步更新，并在页面顶部标明新的更新日期。</p>
       <p class="en">If the app's data practices change, this policy will be updated and a new revision date will appear at the top of this page.</p>
     </article>
 
     <article class="policy-block contact-card">
-      <h2>8. 联系我们 · Contact</h2>
+      <h2>9. 联系我们 · Contact</h2>
       <p>如有隐私问题，请发送邮件至 <a href="mailto:duomiart@gmail.com">duomiart@gmail.com</a>。</p>
       <p class="en">For privacy questions, email <a href="mailto:duomiart@gmail.com">duomiart@gmail.com</a>.</p>
     </article>
